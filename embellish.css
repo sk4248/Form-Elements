@@ -1,0 +1,72 @@
+
+select{
+ 
+    background:transparent;
+    width: 180px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:500;
+    color:#fff;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 30px;
+    -webkit-appearance: none;
+
+    
+}
+h4{
+	font-family: Avantgarde, sans-serif;
+}	
+.right{
+    position:relative;
+    left:920px;
+    width:320px;
+    float:right;
+    }
+
+#virat{
+position: absolute;
+width:230px;
+height:230px;
+float: right;
+ border-radius: 20%;
+                
+}
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+    background-color:#686762;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #686762 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #686762), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #686762 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #686762 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #686762 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #686762 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#686762', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+}
+input[type=text] {
+    position: relative;
+    left:20px;
+  
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+label{
+    position: relative;
+    margin-left:20px;
+}
